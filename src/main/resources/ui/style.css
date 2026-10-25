@@ -1,0 +1,34 @@
+.root {
+    -fx-font-size: 13px;
+}
+
+.car-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.info-label {
+    -fx-text-fill: #555555;
+}
+
+.form-error {
+    -fx-text-fill: #c62828;
+}
+
+.hint {
+    -fx-text-fill: #666666;
+    -fx-font-size: 11px;
+}
+
+.table-row-cell.overdue {
+    -fx-background: #f8d7da;
+}
+
+.table-row-cell.soon {
+    -fx-background: #fff3cd;
+}
+
+.table-row-cell.overdue:filled:selected,
+.table-row-cell.soon:filled:selected {
+    -fx-background: -fx-selection-bar;
+}
